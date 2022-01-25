@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    android:background="@drawable/background_cell_transaction">
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/Tv_transaction_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/transaction_state"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/green"
+            />
+
+        <ImageView
+            android:id="@+id/Iv_Coin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Tv_transaction_state"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/Tv_Bought"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Iv_Coin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/bought"
+            android:textColor="@color/text_color_primary"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/Tv_amount_coin_bought"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/text_color_primary"
+            android:text="@string/amount_coin_bought"
+            android:layout_below="@id/Tv_Bought"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/Btn_sell"
+            android:visibility="gone"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/Tv_amount_coin_bought"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_default"
+            android:fontFamily="@font/montserrat"
+            android:paddingTop="7dp"
+            android:text="@string/sell"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_red"
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>

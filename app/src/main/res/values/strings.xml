@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BvsO</string>
+    <string name="content_desc_app_icon">App icon BsvO</string>
+    <string name="transaction_state">Open</string>
+    <string name="bought">Bought</string>
+    <string name="amount_coin_bought"> amount coin bought</string>
+    <string name="sell">sell</string>
+    <string name="choose_coin">Choose coin</string>
+    <string name="add_bought_transaction_details">Add bought transaction details</string>
+    <string name="price_coin_bought">price(usd)</string>
+    <string name="date_coin_bought">date coin bought</string>
+    <string name="add_sold_transaction_details">Add sold transaction details</string>
+    <string name="amount_coin_sold">amount coin sold</string>
+    <string name="date_coin_sold">date coin sold</string>
+    <string name="gain_loses">Gains/Loses</string>
+    <string name="amount">0000</string>
+</resources>

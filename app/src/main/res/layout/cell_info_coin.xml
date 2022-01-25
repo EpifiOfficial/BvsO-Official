@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_cell_info_coin"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+        <TextView
+            android:id="@+id/Tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/gain_loses"
+            android:textColor="@color/text_color_primary"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:id="@+id/Tv_Gain_Lose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/amount"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_primary"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_cell_choose_coin"
+    android:layout_margin="16dp"
+    android:layout_centerHorizontal="true"
+    >
+
+    <TextView
+        android:id="@+id/Tv_add_sold_transaction_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_sold_transaction_details"
+        android:textSize="18sp"
+        android:textColor="@color/text_color_primary"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <EditText
+        android:id="@+id/Et_AmountCoinSold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#C4C4C4"
+        android:layout_below="@id/Tv_add_sold_transaction_details"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="@string/amount_coin_sold"
+        android:textColorHint="@color/white"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/montserrat"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/Et_PriceCoinSold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#C4C4C4"
+        android:layout_below="@id/Et_AmountCoinSold"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:hint="@string/price_coin_bought"
+        android:textColorHint="@color/white"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/montserrat"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/Et_dateCoinSold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Et_PriceCoinSold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#C4C4C4"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/date_coin_sold"
+        android:inputType="date"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/BtnDoneSoldTransaction"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/Et_dateCoinSold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_default"
+        android:fontFamily="@font/montserrat"
+        android:paddingTop="12dp"
+        android:text="Done"
+        android:textAlignment="center"
+        android:textColor="@color/text_color_primary"
+        android:textSize="18sp" />
+
+</RelativeLayout>
